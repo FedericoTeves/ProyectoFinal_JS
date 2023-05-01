@@ -1,0 +1,22 @@
+[
+    { "codigo": 1, "tipo": "Remera rosa", "precio": 2500
+    },
+    { "codigo": 2, "tipo": "Campera y Pantalon de Cuero", "precio": 7399
+    },
+    { "codigo": 3, "tipo": "Buzo y Babucha Blanco", "precio": 6690
+    },
+    { "codigo": 4, "tipo": "Buzo Gris y Pantalón de jean", "precio": 8900
+    },
+    { "codigo": 5, "tipo": "Tacos Azul Oscuro", "precio": 4500
+    },
+    { "codigo": 6, "tipo": "Abrigo Gadget color negro", "precio": 5699
+    },
+    { "codigo": 7, "tipo": "Campera y Pantalon Tela Teddy", "precio": 6999
+    },
+    { "codigo": 8, "tipo": "Top Runner", "precio": 2939
+    },
+    { "codigo": 9, "tipo": "Blazer y Pollera a Cuadros Azul", "precio": 5899
+    },
+    { "codigo": 10, "tipo": "Tacos Zara color negro", "precio": 8745
+    }
+]
