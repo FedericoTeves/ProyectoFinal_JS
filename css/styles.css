@@ -47,7 +47,7 @@ div.carrito span {
 }
 
 .container {
-    gap: 40px;
+    gap: 15px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -69,34 +69,36 @@ div.carrito span {
     height: 250px;
 }
 .div-card:hover {
-    background-color:rgb(229, 248, 255);
+    background-color:rgb(136, 177, 190);
     transition: .5s ease-in;
     box-shadow: 5px 20px 60px rgba(211, 211, 211, 0.519);
 }
 div.prenda {
-    font-size: 18px;
+    font-size: 20px;
+    margin: 20px 0px 20px 0px;
 }
 
 div.importe {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
+    margin: 15px 0px 55px 0px;
 }
 
-
 button {
-    font-size: 15px;
+    font-size: 16px;
     width: 100px;
     padding: 0px;
+    
 }
 
 div.div-total {
-    font-size: larger;
+    font-size: large;
     align-content: flex-end !important;
 }
 button:hover {
-    background-color: darkcyan;
-    color: whitesmoke;
-    border-color: lightgray;
+    background-color: rgb(77, 153, 153);
+    color: rgb(12, 12, 12);
+    border-color: rgb(167, 167, 167);
 }
 
 @-webkit-keyframes wobble-hor-bottom {

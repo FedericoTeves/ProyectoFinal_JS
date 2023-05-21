@@ -7,7 +7,7 @@ const prendas = []
 
 function obtenerPrendas(){
     fetch(URL)
-    .then(response = response.json())
+    .then(response => response.json())
     .then(data => prendas.push(...data))
     .then(() => cargarProductos(prendas))
     .catch(error => console.log(error))

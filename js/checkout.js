@@ -2,6 +2,7 @@ const tbody = document.querySelector("tbody")
 const spanTotal = document.querySelector("span#importeTotal")
 const confirmarCompra = document.querySelector("button#confirmarCompra")
 
+
 function cargarCarrito(){
     if (carritoProductos.length > 0){
         tbody.innerHTML= ""
@@ -26,14 +27,7 @@ function activarClickEnBotonesEliminar(){
                     cargarCarrito()
             })
         }
-
     }
-}
-
-function calcularTotalCarrito(){
-    let total = 0
-    carritoProductos.forEach(prenda => total = total + prenda.precio)
-    return total
 }
 
 confirmarCompra.addEventListener("click", ()=> {
@@ -47,3 +41,9 @@ confirmarCompra.addEventListener("click", ()=> {
     spanTotal.innerText = "$ 0.00"
     cargarCarrito()
 })
+
+function calcularTotalCarrito(){
+    let total = 0
+    carritoProductos.forEach(prenda => total = total + prenda.precio)
+    return total
+}
